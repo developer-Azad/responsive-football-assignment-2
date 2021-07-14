@@ -173,11 +173,42 @@ p{
 
 /* Mobile device */
 
-@media only screen and (max-width: 668px) {
-  .copa-2021{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    
+@media only screen and (max-width: 688px) {
+  
+  .top-section{
+    width: 100%;
+    height: 100%;
   }
-  .
+  .copa-2021{
+    flex-direction: column;
+  }
+  .heading{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .top-player img{
+    width: 100%;
+    margin-top: 60%;
+  }
+  .players{
+    margin: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+  .container{
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    margin-left: 20px;
+  }
+  .container, .field{
+    width: 100%;
+  }
+  .field{
+margin: ;
+  }
+  .highlights{
+    width: 90%;
+  }
 }
