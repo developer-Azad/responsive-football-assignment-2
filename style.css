@@ -152,6 +152,36 @@ p{
   height: 370px;
 }
 
+/* calender */
+
+.calender-head{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.cal-head{
+  text-align: center;
+}
+.calender{
+  width: 700px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 1rem;
+  grid-template-rows: 40px repeat(5, 1fr);
+}
+.date, .day{
+  background-color: hotpink;
+  display: flex;
+  font-size: 2em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.other-month{
+  background-color: gray;
+}
+
 /* footer section */
 
 .footer{
@@ -227,6 +257,12 @@ p{
     width: 94%;
     height: 250px;
   }
+  .calender-head{
+    margin-top: 150px;
+  }
+  .calender{
+    width: 100%;
+  }
 }
 
 /* tablet devices */
@@ -264,5 +300,11 @@ p{
   .highlights{
     width: 96%;
     height: 200px;
+  }
+  .calender-head{
+    margin-top: 100px;
+  }
+  .calender{
+    width: 130%;
   }
 }
