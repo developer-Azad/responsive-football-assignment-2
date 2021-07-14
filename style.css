@@ -29,6 +29,9 @@ body{
   transform: scale(1.2) rotate(360deg);
   transition: transform 1s
 }
+
+/* heading styles */
+
 h1{
   color: #ffffff;
   font-size: 64px;
@@ -46,6 +49,9 @@ h3{
 p{
   font-weight: 400;
   }
+
+  /* button set up */
+
 .watch-now{
   width: 168px;
   height: 44px;
@@ -58,6 +64,9 @@ p{
   transform: translate(50px);
   transition: transform 2s;
 }
+
+/* top section img */
+
 .top-player img{
   width: 556px;
   height: 438px;
@@ -70,6 +79,9 @@ p{
 .players-section{
   margin-top: 70px;
 }
+
+/* players album */
+
 .players{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -88,7 +100,7 @@ p{
   width: 100%;
 }
 
-/* animation section */
+/* animation section (bonus section) */
 
 @keyframes sliding {
   0%{
@@ -99,14 +111,12 @@ p{
     top: 230px;
     right: 250px;
   }
-  
   100%{
     left: 265px;
     top: 60px;
     width: 200px;
     height: 200px;
   }
-  
 }
 .container{
   display: flex;
@@ -114,12 +124,18 @@ p{
  margin-left: 180px;
  margin-right: 210px;
 }
+
+/* animated area */
+
 .field{
   width: 950px;
   height: 370px;
   margin-right: 30px;
   background-color: darkkhaki;
 }
+
+/* animated img */
+
 .ball img{
   width: 50px;
   height: 50px;
@@ -148,6 +164,9 @@ p{
   width: 484px;
   height: 110px;
 }
+
+/* icons */
+
 .icon-decoration{
   display: flex;
   margin-top: 20px;
